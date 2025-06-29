@@ -1,0 +1,24 @@
+@use "./variables.scss" as constants;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  min-width: 100vw;
+  background-color: constants.$main-bg;
+  .main {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    .contentContainer {
+      width: 100%;
+      flex-grow: 1;
+    }
+  }
+}
