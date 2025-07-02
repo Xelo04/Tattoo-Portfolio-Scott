@@ -4,7 +4,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: 100vw;
+    height: 92vh;
     gap: 8%;
     .writings {
       width: 200px;
@@ -23,7 +23,7 @@
       h1,
       p,
       span {
-        width: 100%; /* Ensure all child elements respect the parent width */
+        width: 100%;
       }
     }
     .image {
@@ -31,6 +31,18 @@
         width: 400px;
         height: auto;
       }
+    }
+  }
+  .short-description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    p {
+      font-size: 2em;
+      width: 650px;
+      text-align: center;
     }
   }
 }

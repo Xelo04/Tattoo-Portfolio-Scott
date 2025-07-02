@@ -14,10 +14,16 @@ const Home = () => {
           <span className="corinthia-regular">Filip Skotarczak</span>
         </div>
         <div className="image">
-          <img src="/scott-photos/main-no-bg-2.png" alt="" />
+          <img src="/scott-photos/main-no-bg.png" alt="" />
         </div>
       </section>
-      <h2>Warto walczyć o swoje marzenia!</h2>
+      <section className="short-description">
+        <h2>Warto walczyć o swoje marzenia!</h2>
+        <p>
+          W przyszłości chcę otworzyć własne studio, które mam nadzieję
+          zaszczyci mnie Twoją obecnością!
+        </p>
+      </section>
     </div>
   );
 };
