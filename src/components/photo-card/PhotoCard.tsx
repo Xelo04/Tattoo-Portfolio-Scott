@@ -1,12 +1,18 @@
 import "./photoCard.scss";
 
-const PhotoCard = () => {
+interface PhotoCardProps {
+  src: string;
+  title: string;
+  date: string;
+}
+
+const PhotoCard = ({ src, title, date }: PhotoCardProps) => {
   return (
     <div className="photo-card">
-      <img src="/tatoos/2besties-tatto_ink-edited-2.jpg" alt="" />
+      <img src={src} alt={title} />
       <div className="photo-card-info">
-        <h4>Besties Tattoo</h4>
-        <p id="date">Data</p>
+        <h4>{title}</h4>
+        <p id="date">{date}</p>
       </div>
     </div>
   );
