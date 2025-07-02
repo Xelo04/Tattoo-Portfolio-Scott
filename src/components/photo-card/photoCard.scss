@@ -7,7 +7,6 @@
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4); /* Add shadow to the whole card */
   overflow: hidden;
   transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
-
   &:hover {
     transform: scale(1.05);
     box-shadow: 0 12px 20px rgba(0, 0, 0, 0.5);

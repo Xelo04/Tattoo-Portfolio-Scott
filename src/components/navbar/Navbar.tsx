@@ -1,14 +1,26 @@
 // Dynamic Navbar component using React Router to display the current page title
 
 import "./navbar.scss";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrolled(window.scrollY > 30);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
 
   return (
-    <nav>
+    <nav className={scrolled ? "scrolled" : ""}>
       <div className="navbar-header">
         <button
           className="hamburger"
