@@ -27,8 +27,16 @@ function App() {
           element: <Home />,
         },
         // {
+        //   path: "/about",
+        //   element: <About />,
+        // },
+        // {
+        //   path: "/gallery",
+        //   element: <Gallery />,
+        // },
+        // {
         //   path: "/contact",
-        //     element: <Contact />,
+        //   element: <Contact />,
         // },
       ],
     },

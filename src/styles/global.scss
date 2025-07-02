@@ -1,4 +1,5 @@
 @use "./variables.scss" as constants;
+@import url("https://fonts.googleapis.com/css2?family=Oregano:ital@0;1&display=swap");
 
 * {
   margin: 0;
@@ -12,6 +13,7 @@
   min-height: 100vh;
   min-width: 100vw;
   background-color: constants.$main-bg;
+  color: constants.$text-color;
   .main {
     display: flex;
     flex-direction: column;
@@ -21,4 +23,10 @@
       flex-grow: 1;
     }
   }
+}
+
+.oregano-regular {
+  font-family: "Oregano", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
