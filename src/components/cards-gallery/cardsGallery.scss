@@ -6,13 +6,11 @@
   flex-direction: column;
   border-radius: 10px;
   margin-bottom: 30px;
-
   .gallery-header {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 20px;
-
     h3 {
       margin: 0;
       text-align: center;
@@ -27,21 +25,16 @@
       color: white;
     }
   }
-
   .cards-container {
     width: 100%;
     display: flex;
     justify-content: center;
-    overflow: hidden;
-    transition: max-height 0.5s ease-in-out, opacity 0.3s ease-in-out,
-      visibility 0.5s;
-
     .cards {
       width: 100%;
       display: flex;
       flex-direction: row;
       flex-wrap: wrap;
-      justify-content: space-between;
+      justify-content: space-between; // Ensures even spacing between cards
       padding-inline: 30px;
     }
 

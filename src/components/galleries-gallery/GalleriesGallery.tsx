@@ -5,7 +5,7 @@ import { tatoosData } from "../../tatooData";
 const GalleriesGallery = () => {
   return (
     <div className="galleries-gallery">
-      <h2>Moje Dotychczasowe Prace i Projekty:</h2>
+      <h2 className="oregano-regular">Moje Dotychczasowe Prace i Projekty:</h2>
       {Object.entries(tatoosData).map(([title, data]) => (
         <CardsGallery key={title} title={title} data={data} />
       ))}
