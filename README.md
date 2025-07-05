@@ -1,2 +1,2 @@
-aaaaaaaaaaa#Tattoo-Portfolio-Scott
+#Tattoo-Portfolio-Scott
 poprosić scotta o numer telefonu i adres email
