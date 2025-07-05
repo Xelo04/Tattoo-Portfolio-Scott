@@ -31,8 +31,34 @@
       width: 100%;
       flex-grow: 1;
       margin-top: 110px;
+      z-index: 2;
     }
   }
+}
+#contactBackground {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url("/contact-background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.6;
+    z-index: 0;
+  }
+}
+
+#footer {
+  z-index: 2;
 }
 
 h1 {
