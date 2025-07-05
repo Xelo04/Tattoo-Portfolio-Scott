@@ -3,6 +3,7 @@ import Home from "./pages/home/Home";
 import Navbar from "./components/navbar/Navbar";
 import Footer from "./components/footer/Footer";
 import "./styles/global.scss";
+import Contact from "./pages/contact/Contact";
 
 function App() {
   const Layout = () => {
@@ -34,10 +35,10 @@ function App() {
         //   path: "/gallery",
         //   element: <Gallery />,
         // },
-        // {
-        //   path: "/contact",
-        //   element: <Contact />,
-        // },
+        {
+          path: "/contact",
+          element: <Contact />,
+        },
       ],
     },
   ]);
