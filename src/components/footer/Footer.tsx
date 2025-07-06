@@ -7,11 +7,15 @@ const Footer = () => {
       <div className="footer-header">
         <div className="quick-contact">
           <span className="title">Napisz do mnie</span>
-          <a href="tel:+48123456789">123456789</a>
+          <a href="tel:+48692166586">Telefon: 692 166 586</a>
           <a href="https://www.instagram.com/fillscott/" target="blank">
-            @Fillscott
+            Instagram: @Fillscott
           </a>
-          <a href="mailto:example@email.com">Email@email.com</a>
+          <a href="https://www.facebook.com/filip.skotarczak" target="blank">
+            Facebook: Filip Scott Skotarczak
+          </a>
+
+          <a href="mailto:madmidking@gmail.com">Mail: madmidking@gmail.com</a>
         </div>
         <ul className="nav-links">
           <Link to="/">

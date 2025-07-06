@@ -9,14 +9,17 @@ const Contact = () => {
       </span>
       <div className="contact-info">
         <div className="text">
-          <a href="tel:+48123456789">
-            <p>Telefon: 123 456 789</p>
+          <a href="tel:+48692166586">
+            <p>Telefon: 692 166 586</p>
           </a>
           <a href="https://www.instagram.com/fillscott/" target="blank">
             <p>Instagram: @Fillscott</p>
           </a>
-          <a href="mailto:example@email.com">
-            <p>Mail: Email@email.com</p>
+          <a href="https://www.facebook.com/filip.skotarczak" target="blank">
+            <p>Facebook: Filip Scott Skotarczak</p>
+          </a>
+          <a href="mailto:madmidking@gmail.com">
+            <p>Mail: madmidking@gmail.com</p>
           </a>
         </div>
       </div>
