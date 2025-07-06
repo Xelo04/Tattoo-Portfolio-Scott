@@ -4,7 +4,7 @@ export const tatoosData = {
       id: 1,
       link: "/tatoos/Nordic/53a9fdfe-d665-4966-a81f-157976160cf2.jpg",
       title: "Ruins Ink",
-      date: "2025-01-15",
+      date: "15.10.2025",
     },
     {
       id: 2,

@@ -1,5 +1,6 @@
 import { useState, useRef, useEffect } from "react";
 import PhotoCard from "../photo-card/PhotoCard";
+import PhotoCardModal from "../photo-card/PhotoCardModal";
 import "./cardsGallery.scss";
 
 interface CardsGalleryProps {
@@ -16,6 +17,16 @@ const CardsGallery = ({ title, data }: CardsGalleryProps) => {
   const [isOpen, setIsOpen] = useState(false);
   const containerRef = useRef<HTMLDivElement>(null);
   const [height, setHeight] = useState("0px");
+
+  const [selectedImage, setSelectedImage] = useState<string | null>(null);
+
+  const handleCardClick = (imageSrc: string) => {
+    setSelectedImage(imageSrc);
+  };
+
+  const closeModal = () => {
+    setSelectedImage(null);
+  };
 
   useEffect(() => {
     if (isOpen && containerRef.current) {
@@ -58,10 +69,14 @@ const CardsGallery = ({ title, data }: CardsGalleryProps) => {
               src={item.link}
               title={item.title}
               date={item.date}
+              onClick={() => handleCardClick(item.link)}
             />
           ))}
         </div>
       </div>
+      {selectedImage && (
+        <PhotoCardModal imageSrc={selectedImage} onClose={closeModal} />
+      )}
     </div>
   );
 };
