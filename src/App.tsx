@@ -22,9 +22,7 @@ function App() {
         <div className="contentContainer">
           <Outlet />
         </div>
-        <div id="footer">
-          <Footer />
-        </div>
+        <Footer />
       </div>
     );
   };
