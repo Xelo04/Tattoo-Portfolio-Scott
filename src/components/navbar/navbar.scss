@@ -67,6 +67,10 @@ nav {
   }
 
   @media (max-width: 750px) {
+    &.scrolled {
+      backdrop-filter: none;
+      background: none;
+    }
     .navbar-header {
       display: flex;
       z-index: 1100;
