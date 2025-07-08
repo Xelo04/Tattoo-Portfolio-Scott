@@ -5,9 +5,11 @@
   min-height: 100vh;
   h1 {
     padding-top: 55px;
+    padding-inline: 15px;
     font-size: 4.4em;
   }
   span {
+    padding-inline: 15px;
     font-weight: 400;
     font-size: 2.4em;
     display: block;
@@ -31,6 +33,23 @@
       a {
         color: constants.$text-color;
         text-decoration: none;
+      }
+    }
+  }
+  @media (max-width: 800px) {
+    h1 {
+      font-size: 3em;
+      line-height: 1em;
+    }
+    span {
+      margin-top: 30px;
+      font-size: 1.7em;
+    }
+    .contact-info {
+      .text {
+        p {
+          font-size: 1.4em;
+        }
       }
     }
   }
