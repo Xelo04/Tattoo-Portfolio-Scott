@@ -13,6 +13,7 @@
     align-items: center;
     text-align: justify;
     h1 {
+      text-align: center;
       margin-bottom: 20px;
     }
     p {
@@ -41,10 +42,12 @@
     }
   }
 
-  @media (max-width: 480px) {
+  @media (max-width: 600px) {
     img {
-      max-width: 150px;
-      min-height: 100px;
+      display: none;
+    }
+    .text-container {
+      width: 90%;
     }
   }
 }
