@@ -1,6 +1,6 @@
 import { useState, useRef, useEffect } from "react";
 import PhotoCard from "../photo-card/PhotoCard";
-import PhotoCardModal from "../photo-card/PhotoCardModal";
+import PhotoCardModal from "../photo-card/photo-card-modal/PhotoCardModal";
 import "./cardsGallery.scss";
 
 interface CardsGalleryProps {
