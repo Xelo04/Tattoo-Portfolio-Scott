@@ -41,7 +41,7 @@ const Navbar = () => {
           </li>
         </Link>
         <Link
-          to="/about"
+          to="/my-history"
           onClick={() => setMenuOpen(false)}
           className="oregano-regular"
         >

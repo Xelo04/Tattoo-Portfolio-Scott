@@ -10,6 +10,7 @@ import Footer from "./components/footer/Footer";
 import "./styles/global.scss";
 import Contact from "./pages/contact/Contact";
 import Gallery from "./pages/gallery/Gallery";
+import MyHistory from "./pages/my-history/MyHistory";
 
 function App() {
   const Layout = () => {
@@ -36,10 +37,10 @@ function App() {
           path: "/",
           element: <Home />,
         },
-        // {
-        //   path: "/about",
-        //   element: <About />,
-        // },
+        {
+          path: "/my-history",
+          element: <MyHistory />,
+        },
         {
           path: "/gallery",
           element: <Gallery />,
