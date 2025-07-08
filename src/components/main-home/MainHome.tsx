@@ -13,7 +13,7 @@ const MainHome = () => {
         <span className="corinthia-regular">Filip Skotarczak</span>
       </div>
       <div className="image">
-        <img src="/scott-photos/main-no-bg.png" alt="" />
+        <img src="/scott-photos/main-no-bg.png" alt="profile-picture" />
       </div>
     </div>
   );
