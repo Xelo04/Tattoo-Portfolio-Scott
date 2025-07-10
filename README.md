@@ -1,2 +1,2 @@
-aaaaaaaaa#Tattoo-Portfolio-Scott
+aaaaaaaaaa#Tattoo-Portfolio-Scott
 responsivnes in gallery and home
