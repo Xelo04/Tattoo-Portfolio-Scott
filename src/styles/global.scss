@@ -63,10 +63,22 @@ h1 {
 
 h2 {
   font-size: 3.2em;
+  @media (max-width: 850px) {
+    font-size: 2.5em;
+  }
+  @media (max-width: 550px) {
+    font-size: 2em;
+  }
 }
 
 h3 {
   font-size: 1.86em;
+  @media (max-width: 850px) {
+    font-size: 1.5em;
+  }
+  @media (max-width: 550px) {
+    font-size: 1.2em;
+  }
 }
 
 h4 {
