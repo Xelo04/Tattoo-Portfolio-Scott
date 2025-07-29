@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://scott-tattoos.netlify.app/sitemap.xml
