@@ -23,7 +23,7 @@ const Footer = () => {
               <span>STRONA GŁÓWNA</span>
             </li>
           </Link>
-          <Link to="/about">
+          <Link to="/my-history">
             <li>
               <span>MOJA HISTORIA</span>
             </li>
