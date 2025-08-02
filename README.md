@@ -107,9 +107,12 @@ Tattoo-Portfolio-Scott/
 ![Gallery View](public/screenshots/DesktopGallery.png)
 
 ### Mobile View
-
-![Mobile Home](public/screenshots/MobileHome.png)
-![Mobile Gallery](public/screenshots/MobileGallery.png)
+<table>
+  <tr>
+    <td><img src="public/screenshots/MobileHome.png"></td>
+    <td><img src="public/screenshots/MobileGallery.png"></td>
+  </tr>
+</table>
 
 ---
 
