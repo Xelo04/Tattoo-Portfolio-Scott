@@ -1,4 +1,4 @@
-aaaaaa# Tattoo Portfolio Scott
+aaaaaaa# Tattoo Portfolio Scott
 
 The **Tattoo Portfolio Scott** project is a web application that showcases a professional tattoo artist's portfolio. This project demonstrates the use of **React**, **TypeScript**, **HTML**, and **SCSS** to create a visually appealing, responsive, and interactive user experience for potential clients and tattoo enthusiasts.
 
